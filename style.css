@@ -7,31 +7,39 @@ body {
 
 /* Header */
 header {
-  background: #080685;
-  color: white;
+  background: #534AB7;
+  color: #EEEDFE;
   text-align: center;
   padding: 30px 0;
 }
 
 header a{
   display: inline-block;
-  margin: 10px 8px;
-  padding: 10px 20px;
-
-  background: rgba(0,0,0,0.7);
- 
-  border: 1px solid rgba(255,255,255,0.3);
-  color: #fff;
+  margin: 4px;
+  font-size: 0.85rem;
+  padding: 6px 18px;
+  border: 1.5px solid #FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
-
-  border-radius: 8px;
-  font-size: 16px;
-
+  border-radius: 20px;
   transition: 0.3s ease;
 }
 
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #CECBF6;
+  font-size: 1rem;
+}
+
 header a:hover{
-  background: #333;
+  background: #FFFFFF;
+  color: #534AB7;
   transform: translateY(-3px);
 }
 
@@ -43,7 +51,10 @@ section {
 }
 
 h2 {
-  color: #080685;
+  color: #534AB7;
+  font-size: 1.4rem;
+  border-left: 4px solid #534AB7;
+  padding-left: 10px; 
 }
 
 /* Skills */
@@ -56,10 +67,14 @@ h2 {
 
 .skills li {
   list-style: none;
-  background: #080685;
-  color: white;
-  padding: 8px 15px;
+  background: #EEEDFE;
+  color: #3C3489;
+  border: 1px solid #AFA9EC;
   border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.85rem;
+  display: inline-block;
+  margin: 4px;
 }
 
 .skills li {
@@ -68,7 +83,8 @@ h2 {
 
 .skills li:hover {
   transform: scale(1.1);
-  background: #3b82f6;
+  background: #534AB7;
+  color: white;
 }
 
 /* Projects */
@@ -83,7 +99,14 @@ h2 {
 }
 
 .project a{
-  color: #080685;
+  color: #534AB7;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project h3 {
+  color: #3C3489;
+  margin-bottom: 6px;
 }
 
 .project:hover {
@@ -93,13 +116,36 @@ h2 {
 
 /* Contact */
 .contact p {
-  font-size: 16px;
+  font-size: 0.95rem;
+  color: #444444;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+.email{
+  text-decoration: none;
+}
+
+.github-btn {
+  padding: 10px 20px;
+  background: #EEEDFE;
+  color: #3C3489;
+  border: 1px solid #AFA9EC;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.github-btn:hover{
+  color: white;
+  background:  #3C3489;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 15px;
-  background: #080685;
+  background:#3C3489;
   color: white;
 }
